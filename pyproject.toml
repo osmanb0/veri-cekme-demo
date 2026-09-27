@@ -1,0 +1,10 @@
+[project]
+name = "veri-cekme-demo"
+version = "0.1.0"
+description = "Bir e-ticaret kataloğundan ürün verisi çekip biçimlendirilmiş Excel raporu üreten örnek (portfolyo demosu)"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "httpx>=0.28.1",
+    "openpyxl>=3.1.5",
+]
